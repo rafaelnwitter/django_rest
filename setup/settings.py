@@ -140,3 +140,7 @@ REST_FRAMEWORK = {
         'user': '1000/day'
     }
 }
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000"
+]
