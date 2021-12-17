@@ -22,6 +22,7 @@ class ListaMatriculasAlunoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Matricula
         fields = ['curso', 'periodo']
+        
     def get_periodo(self, obj):
         return obj.get_periodo_display()
 
