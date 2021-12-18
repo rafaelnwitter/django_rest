@@ -129,7 +129,13 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'anon': '100/day',
         'user': '1000/day'
-    }
+    },
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework_xml.parsers.XMLParser'
+    ],
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework_xml.parsers.XMLParser'
+    ],
 }
 
 CORS_ALLOWED_ORIGINS = [
