@@ -130,14 +130,14 @@ REST_FRAMEWORK = {
         'anon': '100/day',
         'user': '1000/day'
     },
-    'DEFAULT_PARSER_CLASSES': [
-        'rest_framework.parsers.JSONParser',
-        'rest_framework_xml.parsers.XMLParser'
-    ],
-    'DEFAULT_RENDERER_CLASSES': [
-        'rest_framework.renderers.JSONRenderer',
-        'rest_framework_xml.parsers.XMLParser'
-    ],
+    # 'DEFAULT_PARSER_CLASSES': [
+    #     'rest_framework.parsers.JSONParser',
+    #     'rest_framework_xml.parsers.XMLParser'
+    # ],
+    # 'DEFAULT_RENDERER_CLASSES': [
+    #     'rest_framework.renderers.JSONRenderer',
+    #     'rest_framework_xml.parsers.XMLParser'
+    # ],
 }
 
 CORS_ALLOWED_ORIGINS = [
