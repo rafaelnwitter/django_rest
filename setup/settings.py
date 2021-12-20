@@ -130,9 +130,6 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'anon': '100/day',
         'user': '1000/day'
-<<<<<<< HEAD
-    }
-=======
     },
     # 'DEFAULT_PARSER_CLASSES': [
     #     'rest_framework.parsers.JSONParser',
@@ -142,7 +139,6 @@ REST_FRAMEWORK = {
     #     'rest_framework.renderers.JSONRenderer',
     #     'rest_framework_xml.parsers.XMLParser'
     # ],
->>>>>>> security-app
 }
 
 CORS_ALLOWED_ORIGINS = [
