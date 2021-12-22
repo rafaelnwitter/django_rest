@@ -145,6 +145,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ]
 
+
 # CACHES = {
 #     "default": {
 #         "BACKEND": "django_redis.cache.RedisCache",
@@ -161,3 +162,4 @@ CORS_ALLOWED_ORIGINS = [
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),
 )
+

@@ -1,5 +1,6 @@
-from rest_framework import viewsets, generics
-from rest_framework import status
+from django import http
+from rest_framework import status, viewsets, generics
+from rest_framework.response import Response
 from escola.models import Aluno, Curso, Matricula
 from escola.serializer import AlunoSerializer, AlunoSerializerV2, CursoSerializer, MatriculaSerializer, ListaMatriculasAlunoSerializer, ListaAlunosMatriculadosSerializer
 from rest_framework.response import Response
